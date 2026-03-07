@@ -353,4 +353,5 @@ if __name__ == "__main__":
     for i, item_name in enumerate(ITEMS_A_ADQUIRIR):
         supplier_idx = best_solution_indices[i]
         supplier_name = PROVEEDORES_DATA[item_name][supplier_idx]["nombre"]
+
         print(f"  - {item_name}: {supplier_name}")
